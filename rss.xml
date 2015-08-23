@@ -12,11 +12,93 @@ http://rhg.github.io
 A blog about life and it's sidequests
 </description>
 <lastBuildDate>
-Sat, 22 Aug 2015 20:19:12 -0500
+Sun, 23 Aug 2015 17:07:36 -0500
 </lastBuildDate>
 <generator>
 clj-rss
 </generator>
+<item>
+<guid>
+http://rhg.github.io/posts/2015-08-23-var-or-fn.html
+</guid>
+<link>
+http://rhg.github.io/posts/2015-08-23-var-or-fn.html
+</link>
+<title>
+What to pass: a Var or IFn?
+</title>
+<description>
+&lt;h2&gt;&lt;a name=&quot;mapping&amp;#95;a&amp;#95;function&amp;#95;over&amp;#95;a&amp;#95;channel&quot;&gt;&lt;/a&gt;Mapping a function over a channel&lt;/h2&gt;&lt;p&gt;You have a function you are developing:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;&amp;#40;defn name-string
+  &amp;quot;Gives you the name string from a suitable map&amp;quot;
+  &amp;#91;{:keys &amp;#91;first-name&amp;#93;}&amp;#93;
+  first-name&amp;#41;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and you want to run this on maps you get over, say, a socket. Thus you shove it up a channel with an attached transducer of &lt;code&gt;&amp;#40;map name-string&amp;#41;&lt;/code&gt; (or with a pipeline of the actual data channel, for the indirection).&lt;/p&gt;&lt;h2&gt;&lt;a name=&quot;a&amp;#95;problem&amp;#95;arises&quot;&gt;&lt;/a&gt;A Problem Arises&lt;/h2&gt;&lt;p&gt;Now, you want to incorporate the last name as an initial. Thus:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;&amp;#40;defn name-string
+  &amp;quot;Gives you a first name with a last name initial&amp;quot;
+  &amp;#91;{:keys &amp;#91;first-name last-name&amp;#93;}&amp;#93;
+  &amp;#40;str first-name \space &amp;#40;first last-name&amp;#41; &amp;quot;.&amp;quot;&amp;#41;&amp;#41;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;But, oh noes! The old definition is still used. Naïvely you would restart the input source (or if you did use indirection, point it to a new channel). There is a better way, for development purposes. This does incur a small overhead and allows a feature which may be a security hole in production.&lt;/p&gt;&lt;h2&gt;&lt;a name=&quot;what&amp;#95;is&amp;#95;&lt;code&gt;a-function&lt;/code&gt;&quot;&gt;&lt;/a&gt;What is &lt;code&gt;a-function&lt;/code&gt;&lt;/h2&gt;&lt;p&gt;This will resolve at compile time to the current value of the var named by the symbol (or just the value bound to it if a local). This is usually an IFn instance if it's a function. This works fine and dandy in a language with no runtime definitions—&lt;em&gt;cough&lt;/em&gt; java &lt;em&gt;cough&lt;/em&gt;—but it falls flat when used in a dynamic language. It is consistent and logical, unfortunately it does sometimes surprise people when redefinitions do nothing.&lt;/p&gt;&lt;h2&gt;&lt;a name=&quot;what&amp;#95;is&amp;#95;&lt;code&gt;#'a-function&lt;/code&gt;&quot;&gt;&lt;/a&gt;What Is &lt;code&gt;#'a-function&lt;/code&gt;&lt;/h2&gt;&lt;p&gt;At read time this will turn to &lt;code&gt;&amp;#40;var a-function&amp;#41;&lt;/code&gt;. At runtime it evaluates to a &lt;code&gt;clojure.lang.Var&lt;/code&gt; object if a-function is a global. The meta-magic here is that &lt;code&gt;Var&lt;/code&gt; implements &lt;code&gt;IFn&lt;/code&gt;, and if it's a var for a function, invoking the var will invoke the function the var currently points at. I can hear thosee of you saying &quot;that's a reference,&quot; and you are indeed correctish. &lt;code&gt;Var&lt;/code&gt;s are one in the sense they allow mutability, but they also don't allow much else. You can also change the root binding atomically (I think), and if it is marked dynamic (by having &lt;code&gt;:dynamic&lt;/code&gt; &lt;code&gt;true&lt;/code&gt; in the metadata) you can change the current thread binding for a function call.&lt;/p&gt;&lt;h2&gt;&lt;a name=&quot;just&amp;#95;show&amp;#95;me&amp;#95;the&amp;#95;codes!&quot;&gt;&lt;/a&gt;Just Show Me The Codes!&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;&amp;#40;require '&amp;#91;clojure.core.async :as a&amp;#93;&amp;#41;
+;=&amp;gt; nil
+
+&amp;#40;defn my-char
+  &amp;#91;x&amp;#93;
+  &amp;#40;char x&amp;#41;&amp;#41;
+;=&amp;gt; #'user/my-char
+
+&amp;#40;def ch &amp;#40;a/chan 1 &amp;#40;map my-char&amp;#41;&amp;#41;&amp;#41;
+;=&amp;gt; #'user/ch
+
+&amp;#40;a/&amp;gt;!! ch 97&amp;#41;
+;=&amp;gt; true
+
+&amp;#40;a/&amp;lt;!! ch&amp;#41;
+;=&amp;gt; \a
+
+; now let's redefine our function
+
+&amp;#40;alter-var-root #'my-char comp inc&amp;#41;
+
+; now it incs the number before turning it to a character
+
+&amp;#40;a/&amp;gt;!! ch 97&amp;#41;
+;=&amp;gt; true
+
+&amp;#40;= \b &amp;#40;a/&amp;lt;!! ch&amp;#41;&amp;#41;
+;=&amp;gt; false
+
+; oh noez! press the panic button!
+
+; or do this when creating the channel
+
+&amp;#40;defn my-char
+  &amp;#91;x&amp;#93;
+  &amp;#40;char x&amp;#41;&amp;#41;
+;=&amp;gt; #'user/my-char
+
+&amp;#40;def ch &amp;#40;a/chan 1 &amp;#40;map #'my-char&amp;#41;&amp;#41;&amp;#41;
+;=&amp;gt; user/ch
+
+&amp;#40;a/&amp;gt;!! ch 97&amp;#41;
+;=&amp;gt; true
+
+&amp;#40;= \a &amp;#40;a/&amp;lt;!! ch&amp;#41;&amp;#41;
+;=&amp;gt; true
+
+&amp;#40;alter-var-root #'my-char comp inc&amp;#41;
+;=&amp;gt; an instance of IFn
+
+&amp;#40;a/&amp;gt;!! ch 97&amp;#41;
+;=&amp;gt; true
+
+&amp;#40;= \b &amp;#40;a/&amp;lt;!! ch&amp;#41;&amp;#41;
+;=&amp;gt; true
+
+; yay!
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+<pubDate>
+Sun, 23 Aug 2015 00:00:00 -0500
+</pubDate>
+</item>
 <item>
 <guid>
 http://rhg.github.io/posts/2015-08-22-on-licensing.html

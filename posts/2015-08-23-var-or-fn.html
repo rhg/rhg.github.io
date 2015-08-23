@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
     <meta charset="utf-8"/>
-    <title>tehblog: About</title>
+    <title>tehblog: What to pass: a Var or IFn?</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700' rel='stylesheet'
           type='text/css'>
@@ -32,7 +32,7 @@
                 ><a href="/archives.html">Archives</a></li>
                 
                 <li
-                 class="active" >
+                >
                 <a href="/pages/about.html">About</a>
                 </li>
                 
@@ -50,21 +50,106 @@
         <div class="col-lg-9">
             <div id="content">
                 
-<div id="custom-page">
-    <div id="page-header">
-        <h2>About</h2>
+<div id="post">
+    <div class="post-header">
+    <div id="post-meta" class="row">
+        <div class="col-lg-6">August 23, 2015</div>
+        
     </div>
+    <h2>What to pass: a Var or IFn?</h2>
+</div>
+<div>
     
-    <h2><a name="who&#95;am&#95;i?"></a>Who am I?</h2><p>I should be able to answer that, but I'm forbidden. I am me; that's the simple answer. The slightly more informative answer is "Not you".</p><h2><a name="aliases"></a>Aliases</h2><pre><code class="javascript">rhg135 = rhg331 = Indifference = DifferentLambda
-</code></pre><p>This is an incomplete list.</p><h2><a name="facts"></a>Facts</h2><p>I'm a 21 year old hispanic male. Live around Dallas, TX, US.</p><h2><a name="interests"></a>Interests</h2><p>A lot of things I am moderately interested in. The most up-to-date guide would have to be actually talking to me live on IRC/Hangouts.</p>
+    <h2><a name="mapping&#95;a&#95;function&#95;over&#95;a&#95;channel"></a>Mapping a function over a channel</h2><p>You have a function you are developing:</p><pre><code>&#40;defn name-string
+  &quot;Gives you the name string from a suitable map&quot;
+  &#91;{:keys &#91;first-name&#93;}&#93;
+  first-name&#41;
+</code></pre><p>and you want to run this on maps you get over, say, a socket. Thus you shove it up a channel with an attached transducer of <code>&#40;map name-string&#41;</code> (or with a pipeline of the actual data channel, for the indirection).</p><h2><a name="a&#95;problem&#95;arises"></a>A Problem Arises</h2><p>Now, you want to incorporate the last name as an initial. Thus:</p><pre><code>&#40;defn name-string
+  &quot;Gives you a first name with a last name initial&quot;
+  &#91;{:keys &#91;first-name last-name&#93;}&#93;
+  &#40;str first-name \space &#40;first last-name&#41; &quot;.&quot;&#41;&#41;
+</code></pre><p>But, oh noes! The old definition is still used. Naïvely you would restart the input source (or if you did use indirection, point it to a new channel). There is a better way, for development purposes. This does incur a small overhead and allows a feature which may be a security hole in production.</p><h2><a name="what&#95;is&#95;<code>a-function</code>"></a>What is <code>a-function</code></h2><p>This will resolve at compile time to the current value of the var named by the symbol (or just the value bound to it if a local). This is usually an IFn instance if it's a function. This works fine and dandy in a language with no runtime definitions—<em>cough</em> java <em>cough</em>—but it falls flat when used in a dynamic language. It is consistent and logical, unfortunately it does sometimes surprise people when redefinitions do nothing.</p><h2><a name="what&#95;is&#95;<code>#'a-function</code>"></a>What Is <code>#'a-function</code></h2><p>At read time this will turn to <code>&#40;var a-function&#41;</code>. At runtime it evaluates to a <code>clojure.lang.Var</code> object if a-function is a global. The meta-magic here is that <code>Var</code> implements <code>IFn</code>, and if it's a var for a function, invoking the var will invoke the function the var currently points at. I can hear thosee of you saying "that's a reference," and you are indeed correctish. <code>Var</code>s are one in the sense they allow mutability, but they also don't allow much else. You can also change the root binding atomically (I think), and if it is marked dynamic (by having <code>:dynamic</code> <code>true</code> in the metadata) you can change the current thread binding for a function call.</p><h2><a name="just&#95;show&#95;me&#95;the&#95;codes!"></a>Just Show Me The Codes!</h2><pre><code>&#40;require '&#91;clojure.core.async :as a&#93;&#41;
+;=&gt; nil
+
+&#40;defn my-char
+  &#91;x&#93;
+  &#40;char x&#41;&#41;
+;=&gt; #'user/my-char
+
+&#40;def ch &#40;a/chan 1 &#40;map my-char&#41;&#41;&#41;
+;=&gt; #'user/ch
+
+&#40;a/&gt;!! ch 97&#41;
+;=&gt; true
+
+&#40;a/&lt;!! ch&#41;
+;=&gt; \a
+
+; now let's redefine our function
+
+&#40;alter-var-root #'my-char comp inc&#41;
+
+; now it incs the number before turning it to a character
+
+&#40;a/&gt;!! ch 97&#41;
+;=&gt; true
+
+&#40;= \b &#40;a/&lt;!! ch&#41;&#41;
+;=&gt; false
+
+; oh noez! press the panic button!
+
+; or do this when creating the channel
+
+&#40;defn my-char
+  &#91;x&#93;
+  &#40;char x&#41;&#41;
+;=&gt; #'user/my-char
+
+&#40;def ch &#40;a/chan 1 &#40;map #'my-char&#41;&#41;&#41;
+;=&gt; user/ch
+
+&#40;a/&gt;!! ch 97&#41;
+;=&gt; true
+
+&#40;= \a &#40;a/&lt;!! ch&#41;&#41;
+;=&gt; true
+
+&#40;alter-var-root #'my-char comp inc&#41;
+;=&gt; an instance of IFn
+
+&#40;a/&gt;!! ch 97&#41;
+;=&gt; true
+
+&#40;= \b &#40;a/&lt;!! ch&#41;&#41;
+;=&gt; true
+
+; yay!
+</code></pre>
+</div>
+
+<div id="post-tags">
+    <b>Tags: </b>
+    
+    <a href="/tags/clojure.html">clojure</a>
+    
+    <a href="/tags/code.html">code</a>
+    
+</div>
+
 
     <div id="prev-next">
         
         
-        
-        <a href="/pages/contact-me.html">Contact me &raquo;</a>
+        <a class="right" href="/posts/2015-08-22-on-licensing.html">On Licensing &raquo;</a>
         
     </div>
+
+	<iframe src="https://kiwiirc.com/client/irc.canternet.org/?nick=rhg_guest|?#rhg135" style="border:0; width:100%; height:450px;"></iframe>
+
+    
+
+
 </div>
 
             </div>

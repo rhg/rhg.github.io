@@ -53,26 +53,87 @@
 <div id="post">
     <div class="post-header">
     <div id="post-meta" class="row">
-        <div class="col-lg-6">August 22, 2015</div>
+        <div class="col-lg-6">August 23, 2015</div>
         
     </div>
-    <h2>On Licensing</h2>
+    <h2>What to pass: a Var or IFn?</h2>
 </div>
 <div>
     
-    <h3><a name="what&#95;about&#95;it?"></a>What about it?</h3><p>Copyright is <strong>broken</strong>. The whole concept of controlling copying of a resource is just not viable, and furthermore erronous. To me it is reminiscent of censorship, and we all know how well that works.</p><p>Lately I have been releasing any works to the public domain. Before discussing why, let's examine this "copyright" thing.</p><h3><a name="what&#95;got&#95;me&#95;thinking&#95;about&#95;this"></a>What got me thinking about this</h3><p>I don't recall what exactly was being looked for when I saw a project on github with an <code>UNLICENSE</code> file. Initially I payed no mind to this and I went on my way. Little did I know of the reagent I had encountered.</p><p>A few days later—presumably because I was about to release a chunk of code—I began to wonder why we could just copy certain works, yet most code had to be attributed—in the best case—or bought. I suddenly remembered the <a href='http://unlicense.org'>link</a> at the bottom of that <code>UNLICENSE</code>. I read a bit and although I don't agree with it completely, I began to question why copyright exists.</p><h3><a name="why&#95;copyright"></a>Why copyright</h3><p>I'm not going to rehash all of <a href='http://lmgtfy.com?q=the+history+of+copyright'>the history of copyright</a>, just look at reasons people commonly cite for copyright.</p><h4><a name="credit/attribution"></a>Credit/Attribution</h4><p>This is—quite possibly—the most common excuse for copyright I've seen. Manifests in common Creative Commons licences for art and in BSD type licenses for code. I fail to see how this would not work, but it is incredibly heavy handed and inpractical.</p><p>Many circles already have a name for this called <code>plagiarism</code>. <a href='http://www.merriam-webster.com/dictionary/plagiarism'>Merriam-Webster</a> defines this as "the act of using another person's words or ideas without giving credit to that person". In academia this is a very a serious offense. Just ask any of the many students expelled for it. In other circles it is also considered common curtesy. In light of this, is applying law to the problem of plagiarism a proper aid?</p><p>And what happens when your works are plagiarized? If you did not place copyright on it, nothing (assuming plagiarism is fine). If you did, either you sue or you let the law be broken. Assuming you're not a sadist, I doubt you'll do the former. If a law is meant to be broken, then what's the point of said law?</p><h4><a name="control"></a>Control</h4><p>This is not quite as common, but still a reason. I am guilty of this one too. The aim is to maintain control on a project, and this is pretty close to an actual reason.</p><p>Usually achieved partially via closed source in software and strict licensing in art. Not being an artist I can't say how it is managed; so I will seek code. Two related project I am slightly familiar with and have vastly different approaches to this would be <a href='http://clojure.org'>clojure</a> and <a href='http://datomic.com'>datomic</a>.</p><p>Clojure is under the EPL 1.0 which actually allows forks. Many forks actually do exist, <a href='http://kiwiirc.com/client/irc.freenode.com/#clojure'>#clojure</a> on freenode, the <a href='http://groups.google.com/group/clojure'>mailing lists</a> and other sources do a decent job of reminding people of the downsides of using forks. So while you're welcome to run your own forks, the community at large tries hard to use the canonical implementation. The way this is implemented on the <a href='http://openjdk.java.net'>JVM</a> makes it rather easy to swap the implementation of clojure at launch. This is very useful for testing new features before inclusion in the upstream code.</p><p>Datomic on the other hand is not open source and has a custom EULA. This establishes control firmly for Cognitect at the expense of customization for users. As datomic is enterprise software—and relatively small—this could be a fair trade-off. And considering datomic was made after clojure it is plausible that the EPL-shaded picture I painted previously isn't as well-made as I think.</p><h4><a name="monetary&#95;endowement"></a>Monetary Endowement</h4><p>I would have to claim pure greed for this, but that's my opinion and don't care much.</p><h3><a name="why&#95;<strong><i>i</i></strong>&#95;avoid&#95;it"></a>Why <strong><i>I</i></strong> avoid it</h3><p>I feel as I received for free what little skill I have and it is very fitting for me to give it freely. Not just me, but I feel everyone should do the same as they all received in the same manner. I do not pretend to have any such ability to force anyone, and furthermore I do not think it'd be right to. Therefore I hope that by doing this I can set yet another example for any other content creator out there.</p><p>I may not be very creative, or even well-endowed in programming, but darn it if I'm not going to share what I do create!</p>
+    <h2><a name="mapping&#95;a&#95;function&#95;over&#95;a&#95;channel"></a>Mapping a function over a channel</h2><p>You have a function you are developing:</p><pre><code>&#40;defn name-string
+  &quot;Gives you the name string from a suitable map&quot;
+  &#91;{:keys &#91;first-name&#93;}&#93;
+  first-name&#41;
+</code></pre><p>and you want to run this on maps you get over, say, a socket. Thus you shove it up a channel with an attached transducer of <code>&#40;map name-string&#41;</code> (or with a pipeline of the actual data channel, for the indirection).</p><h2><a name="a&#95;problem&#95;arises"></a>A Problem Arises</h2><p>Now, you want to incorporate the last name as an initial. Thus:</p><pre><code>&#40;defn name-string
+  &quot;Gives you a first name with a last name initial&quot;
+  &#91;{:keys &#91;first-name last-name&#93;}&#93;
+  &#40;str first-name \space &#40;first last-name&#41; &quot;.&quot;&#41;&#41;
+</code></pre><p>But, oh noes! The old definition is still used. Naïvely you would restart the input source (or if you did use indirection, point it to a new channel). There is a better way, for development purposes. This does incur a small overhead and allows a feature which may be a security hole in production.</p><h2><a name="what&#95;is&#95;<code>a-function</code>"></a>What is <code>a-function</code></h2><p>This will resolve at compile time to the current value of the var named by the symbol (or just the value bound to it if a local). This is usually an IFn instance if it's a function. This works fine and dandy in a language with no runtime definitions—<em>cough</em> java <em>cough</em>—but it falls flat when used in a dynamic language. It is consistent and logical, unfortunately it does sometimes surprise people when redefinitions do nothing.</p><h2><a name="what&#95;is&#95;<code>#'a-function</code>"></a>What Is <code>#'a-function</code></h2><p>At read time this will turn to <code>&#40;var a-function&#41;</code>. At runtime it evaluates to a <code>clojure.lang.Var</code> object if a-function is a global. The meta-magic here is that <code>Var</code> implements <code>IFn</code>, and if it's a var for a function, invoking the var will invoke the function the var currently points at. I can hear thosee of you saying "that's a reference," and you are indeed correctish. <code>Var</code>s are one in the sense they allow mutability, but they also don't allow much else. You can also change the root binding atomically (I think), and if it is marked dynamic (by having <code>:dynamic</code> <code>true</code> in the metadata) you can change the current thread binding for a function call.</p><h2><a name="just&#95;show&#95;me&#95;the&#95;codes!"></a>Just Show Me The Codes!</h2><pre><code>&#40;require '&#91;clojure.core.async :as a&#93;&#41;
+;=&gt; nil
+
+&#40;defn my-char
+  &#91;x&#93;
+  &#40;char x&#41;&#41;
+;=&gt; #'user/my-char
+
+&#40;def ch &#40;a/chan 1 &#40;map my-char&#41;&#41;&#41;
+;=&gt; #'user/ch
+
+&#40;a/&gt;!! ch 97&#41;
+;=&gt; true
+
+&#40;a/&lt;!! ch&#41;
+;=&gt; \a
+
+; now let's redefine our function
+
+&#40;alter-var-root #'my-char comp inc&#41;
+
+; now it incs the number before turning it to a character
+
+&#40;a/&gt;!! ch 97&#41;
+;=&gt; true
+
+&#40;= \b &#40;a/&lt;!! ch&#41;&#41;
+;=&gt; false
+
+; oh noez! press the panic button!
+
+; or do this when creating the channel
+
+&#40;defn my-char
+  &#91;x&#93;
+  &#40;char x&#41;&#41;
+;=&gt; #'user/my-char
+
+&#40;def ch &#40;a/chan 1 &#40;map #'my-char&#41;&#41;&#41;
+;=&gt; user/ch
+
+&#40;a/&gt;!! ch 97&#41;
+;=&gt; true
+
+&#40;= \a &#40;a/&lt;!! ch&#41;&#41;
+;=&gt; true
+
+&#40;alter-var-root #'my-char comp inc&#41;
+;=&gt; an instance of IFn
+
+&#40;a/&gt;!! ch 97&#41;
+;=&gt; true
+
+&#40;= \b &#40;a/&lt;!! ch&#41;&#41;
+;=&gt; true
+
+; yay!
+</code></pre>
 </div>
 
 <div id="post-tags">
     <b>Tags: </b>
     
-    <a href="/tags/law.html">law</a>
-    
-    <a href="/tags/copyright.html">copyright</a>
+    <a href="/tags/clojure.html">clojure</a>
     
     <a href="/tags/code.html">code</a>
-    
-    <a href="/tags/creative.html">creative</a>
     
 </div>
 
@@ -82,7 +143,7 @@
     <div id="prev-next">
         
         
-        <a class="right" href="/posts/2015-08-21-i-made-post.html">Look ma! I made post! &raquo;</a>
+        <a class="right" href="/posts/2015-08-22-on-licensing.html">On Licensing &raquo;</a>
         
     </div>
 </div>
@@ -106,6 +167,8 @@
                     <h3>Recent Posts</h3>
                     <ul>
                         
+                        <li><a href="/posts/2015-08-23-var-or-fn.html">What to pass: a Var or IFn?</a></li>
+                        
                         <li><a href="/posts/2015-08-22-on-licensing.html">On Licensing</a></li>
                         
                         <li><a href="/posts/2015-08-21-i-made-post.html">Look ma! I made post!</a></li>
@@ -118,11 +181,13 @@
                     <h3>Tags</h3>
                     <ul>
                         
+                        <li><a href="/tags/clojure.html">clojure</a></li>
+                        
+                        <li><a href="/tags/code.html">code</a></li>
+                        
                         <li><a href="/tags/law.html">law</a></li>
                         
                         <li><a href="/tags/copyright.html">copyright</a></li>
-                        
-                        <li><a href="/tags/code.html">code</a></li>
                         
                         <li><a href="/tags/creative.html">creative</a></li>
                         
