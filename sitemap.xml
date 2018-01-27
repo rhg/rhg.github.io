@@ -1,123 +1,79 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
-<url>
-<loc>
-http://rhg.github.io404.html
-</loc>
-<lastmod>
-2015-08-23
-</lastmod>
-</url>
-<url>
-<loc>
-http://rhg.github.ioposts/2015-08-23-var-or-fn.html
-</loc>
-<lastmod>
-2015-08-23
-</lastmod>
-</url>
-<url>
-<loc>
-http://rhg.github.ioposts/2015-08-22-on-licensing.html
-</loc>
-<lastmod>
-2015-08-23
-</lastmod>
-</url>
-<url>
-<loc>
-http://rhg.github.ioposts/2015-08-21-i-made-post.html
-</loc>
-<lastmod>
-2015-08-23
-</lastmod>
-</url>
-<url>
-<loc>
-http://rhg.github.iopages/about.html
-</loc>
-<lastmod>
-2015-08-23
-</lastmod>
-</url>
-<url>
-<loc>
-http://rhg.github.iopages/contact-me.html
-</loc>
-<lastmod>
-2015-08-23
-</lastmod>
-</url>
-<url>
-<loc>
-http://rhg.github.iotags/clojure.html
-</loc>
-<lastmod>
-2015-08-23
-</lastmod>
-</url>
-<url>
-<loc>
-http://rhg.github.iotags/code.html
-</loc>
-<lastmod>
-2015-08-23
-</lastmod>
-</url>
-<url>
-<loc>
-http://rhg.github.iotags/law.html
-</loc>
-<lastmod>
-2015-08-23
-</lastmod>
-</url>
-<url>
-<loc>
-http://rhg.github.iotags/copyright.html
-</loc>
-<lastmod>
-2015-08-23
-</lastmod>
-</url>
-<url>
-<loc>
-http://rhg.github.iotags/creative.html
-</loc>
-<lastmod>
-2015-08-23
-</lastmod>
-</url>
-<url>
-<loc>
-http://rhg.github.iotags/meta.html
-</loc>
-<lastmod>
-2015-08-23
-</lastmod>
-</url>
-<url>
-<loc>
-http://rhg.github.iotags.html
-</loc>
-<lastmod>
-2015-08-23
-</lastmod>
-</url>
-<url>
-<loc>
-http://rhg.github.ioindex.html
-</loc>
-<lastmod>
-2015-08-23
-</lastmod>
-</url>
-<url>
-<loc>
-http://rhg.github.ioarchives.html
-</loc>
-<lastmod>
-2015-08-23
-</lastmod>
-</url>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://rhg135.com/posts/what-to-pass/</loc>
+    <lastmod>2015-08-23T12:33:14-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rhg135.com/posts/on-licensing/</loc>
+    <lastmod>2015-08-22T13:54:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rhg135.com/posts/look-ma-i-made-post/</loc>
+    <lastmod>2015-08-21T13:09:11-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rhg135.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rhg135.com/tags/clojure/</loc>
+    <lastmod>2015-08-23T12:33:14-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rhg135.com/tags/code/</loc>
+    <lastmod>2015-08-23T12:33:14-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rhg135.com/tags/copyright/</loc>
+    <lastmod>2015-08-22T13:54:00-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rhg135.com/tags/creative/</loc>
+    <lastmod>2015-08-22T13:54:00-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rhg135.com/tags/law/</loc>
+    <lastmod>2015-08-22T13:54:00-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rhg135.com/tags/meta/</loc>
+    <lastmod>2015-08-21T13:09:11-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rhg135.com/posts/</loc>
+    <lastmod>2015-08-23T12:33:14-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rhg135.com/tags/</loc>
+    <lastmod>2015-08-23T12:33:14-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rhg135.com/</loc>
+    <lastmod>2015-08-23T12:33:14-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
 </urlset>

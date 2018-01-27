@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meta on tehblog</title>
+    <link>http://rhg135.com/tags/meta/</link>
+    <description>Recent content in Meta on tehblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>No Rights Reserved &lt;a href=&#34;https://github.com/rhg&#34;&gt;Ricardo Gomez&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 21 Aug 2015 13:09:11 -0600</lastBuildDate>
+    
+	<atom:link href="http://rhg135.com/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Look Ma! I Made Post!</title>
+      <link>http://rhg135.com/posts/look-ma-i-made-post/</link>
+      <pubDate>Fri, 21 Aug 2015 13:09:11 -0600</pubDate>
+      
+      <guid>http://rhg135.com/posts/look-ma-i-made-post/</guid>
+      <description>So, I have a blog. For a long time I pondered it, but never acted. Today a switch in my head finally flipped, and I became allowed to start writing; and more than that, setting up the infrastructure.
+Fortunately—for me—my blog engine—cryogen—was very easy to set-up and soon I was producing. Cryogen is distributed as a template for leiningen, and this made it easy to get started. For more details see the homepage for cryogen.</description>
+    </item>
+    
+  </channel>
+</rss>

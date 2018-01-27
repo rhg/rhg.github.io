@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on tehblog</title>
+    <link>http://rhg135.com/posts/</link>
+    <description>Recent content in Posts on tehblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>No Rights Reserved &lt;a href=&#34;https://github.com/rhg&#34;&gt;Ricardo Gomez&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 23 Aug 2015 12:33:14 -0600</lastBuildDate>
+    
+	<atom:link href="http://rhg135.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What to Pass: a Var or IFn?</title>
+      <link>http://rhg135.com/posts/what-to-pass/</link>
+      <pubDate>Sun, 23 Aug 2015 12:33:14 -0600</pubDate>
+      
+      <guid>http://rhg135.com/posts/what-to-pass/</guid>
+      <description>Mapping a function over a channel You have a function you are developing:
+(defn name-string &amp;quot;Gives you the name string from a suitable map&amp;quot; [{:keys [first-name]}] first-name)  and you want to run this on maps you get over, say, a socket. Thus you shove it up a channel with an attached transducer of (map name-string) (or with a pipeline of the actual data channel, for the indirection).
+A Problem Arises Now, you want to incorporate the last name as an initial.</description>
+    </item>
+    
+    <item>
+      <title>On Licensing</title>
+      <link>http://rhg135.com/posts/on-licensing/</link>
+      <pubDate>Sat, 22 Aug 2015 13:54:00 -0600</pubDate>
+      
+      <guid>http://rhg135.com/posts/on-licensing/</guid>
+      <description>What about it? Copyright is broken. The whole concept of controlling copying of a resource is just not viable, and furthermore erronous. To me it is reminiscent of censorship, and we all know how well that works.
+Lately I have been releasing any works to the public domain. Before discussing why, let&amp;rsquo;s examine this &amp;ldquo;copyright&amp;rdquo; thing.
+What got me thinking about this I don&amp;rsquo;t recall what exactly was being looked for when I saw a project on github with an UNLICENSE file.</description>
+    </item>
+    
+    <item>
+      <title>Look Ma! I Made Post!</title>
+      <link>http://rhg135.com/posts/look-ma-i-made-post/</link>
+      <pubDate>Fri, 21 Aug 2015 13:09:11 -0600</pubDate>
+      
+      <guid>http://rhg135.com/posts/look-ma-i-made-post/</guid>
+      <description>So, I have a blog. For a long time I pondered it, but never acted. Today a switch in my head finally flipped, and I became allowed to start writing; and more than that, setting up the infrastructure.
+Fortunately—for me—my blog engine—cryogen—was very easy to set-up and soon I was producing. Cryogen is distributed as a template for leiningen, and this made it easy to get started. For more details see the homepage for cryogen.</description>
+    </item>
+    
+  </channel>
+</rss>

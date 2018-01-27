@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Copyright on tehblog</title>
+    <link>http://rhg135.com/tags/copyright/</link>
+    <description>Recent content in Copyright on tehblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>No Rights Reserved &lt;a href=&#34;https://github.com/rhg&#34;&gt;Ricardo Gomez&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 22 Aug 2015 13:54:00 -0600</lastBuildDate>
+    
+	<atom:link href="http://rhg135.com/tags/copyright/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>On Licensing</title>
+      <link>http://rhg135.com/posts/on-licensing/</link>
+      <pubDate>Sat, 22 Aug 2015 13:54:00 -0600</pubDate>
+      
+      <guid>http://rhg135.com/posts/on-licensing/</guid>
+      <description>What about it? Copyright is broken. The whole concept of controlling copying of a resource is just not viable, and furthermore erronous. To me it is reminiscent of censorship, and we all know how well that works.
+Lately I have been releasing any works to the public domain. Before discussing why, let&amp;rsquo;s examine this &amp;ldquo;copyright&amp;rdquo; thing.
+What got me thinking about this I don&amp;rsquo;t recall what exactly was being looked for when I saw a project on github with an UNLICENSE file.</description>
+    </item>
+    
+  </channel>
+</rss>
