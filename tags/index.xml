@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>No Rights Reserved &lt;a href=&#34;https://github.com/rhg&#34;&gt;Ricardo Gomez&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 23 Aug 2015 12:33:14 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jan 2018 11:00:46 -0600</lastBuildDate>
     
 	<atom:link href="http://rhg135.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Addiction</title>
+      <link>http://rhg135.com/tags/addiction/</link>
+      <pubDate>Sun, 28 Jan 2018 11:00:46 -0600</pubDate>
+      
+      <guid>http://rhg135.com/tags/addiction/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Clojure</title>
@@ -45,6 +54,24 @@
       <pubDate>Sat, 22 Aug 2015 13:54:00 -0600</pubDate>
       
       <guid>http://rhg135.com/tags/creative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dependency</title>
+      <link>http://rhg135.com/tags/dependency/</link>
+      <pubDate>Sun, 28 Jan 2018 11:00:46 -0600</pubDate>
+      
+      <guid>http://rhg135.com/tags/dependency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drug</title>
+      <link>http://rhg135.com/tags/drug/</link>
+      <pubDate>Sun, 28 Jan 2018 11:00:46 -0600</pubDate>
+      
+      <guid>http://rhg135.com/tags/drug/</guid>
       <description></description>
     </item>
     
