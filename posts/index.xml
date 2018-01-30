@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>No Rights Reserved &lt;a href=&#34;https://github.com/rhg&#34;&gt;Ricardo Gomez&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 29 Jan 2018 11:23:54 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jan 2018 10:45:15 -0600</lastBuildDate>
     
 	<atom:link href="http://rhg135.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NaPoWriMo Entry</title>
+      <link>http://rhg135.com/posts/napowrimo-firstdraft/</link>
+      <pubDate>Tue, 30 Jan 2018 10:45:15 -0600</pubDate>
+      
+      <guid>http://rhg135.com/posts/napowrimo-firstdraft/</guid>
+      <description>I wrote a story for NaPoWriMo. For those that don&amp;rsquo;t know what it is it&amp;rsquo;s basically a self-imposed challange to write a My Little Pony: Friendship is Magic fanfiction. I didn&amp;rsquo;t get to the 50k, but I did get to the 25k mark.
+Here it is. Eventually I will go over it and polish it up for editing. Right now it has a few major flaws.</description>
+    </item>
     
     <item>
       <title>Hugo Migration</title>

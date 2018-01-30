@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://rhg135.com/posts/napowrimo-firstdraft/</loc>
+    <lastmod>2018-01-30T10:45:15-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://rhg135.com/posts/hugo-migration/</loc>
     <lastmod>2018-01-29T11:23:54-06:00</lastmod>
   </url>
@@ -69,6 +74,12 @@
   </url>
   
   <url>
+    <loc>http://rhg135.com/tags/draft/</loc>
+    <lastmod>2018-01-30T10:45:15-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://rhg135.com/tags/drug/</loc>
     <lastmod>2018-01-28T11:00:46-06:00</lastmod>
     <priority>0</priority>
@@ -93,8 +104,20 @@
   </url>
   
   <url>
+    <loc>http://rhg135.com/tags/napowrimo/</loc>
+    <lastmod>2018-01-30T10:45:15-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://rhg135.com/posts/</loc>
-    <lastmod>2018-01-29T11:23:54-06:00</lastmod>
+    <lastmod>2018-01-30T10:45:15-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rhg135.com/tags/story/</loc>
+    <lastmod>2018-01-30T10:45:15-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -106,7 +129,7 @@
   
   <url>
     <loc>http://rhg135.com/</loc>
-    <lastmod>2018-01-29T11:23:54-06:00</lastmod>
+    <lastmod>2018-01-30T10:45:15-06:00</lastmod>
     <priority>0</priority>
   </url>
   
