@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://rhg135.com/posts/music-app/</loc>
+    <lastmod>2018-02-02T11:47:53-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://rhg135.com/posts/cycling-is-fun/</loc>
     <lastmod>2018-02-01T13:25:05-06:00</lastmod>
   </url>
@@ -126,6 +131,12 @@
   </url>
   
   <url>
+    <loc>http://rhg135.com/tags/music/</loc>
+    <lastmod>2018-02-02T11:47:53-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://rhg135.com/tags/napowrimo/</loc>
     <lastmod>2018-01-30T10:45:15-06:00</lastmod>
     <priority>0</priority>
@@ -133,7 +144,13 @@
   
   <url>
     <loc>http://rhg135.com/posts/</loc>
-    <lastmod>2018-02-01T13:25:05-06:00</lastmod>
+    <lastmod>2018-02-02T11:47:53-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rhg135.com/tags/spotify/</loc>
+    <lastmod>2018-02-02T11:47:53-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -157,7 +174,7 @@
   
   <url>
     <loc>http://rhg135.com/</loc>
-    <lastmod>2018-02-01T13:25:05-06:00</lastmod>
+    <lastmod>2018-02-02T11:47:53-06:00</lastmod>
     <priority>0</priority>
   </url>
   
