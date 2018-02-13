@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://rhg135.com/posts/i-am-getting-better-at-drawing/</loc>
+    <lastmod>2018-02-13T12:57:59-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://rhg135.com/posts/music-app/</loc>
     <lastmod>2018-02-02T11:47:53-06:00</lastmod>
   </url>
@@ -101,6 +106,12 @@
   </url>
   
   <url>
+    <loc>http://rhg135.com/tags/drawing/</loc>
+    <lastmod>2018-02-13T12:57:59-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://rhg135.com/tags/drug/</loc>
     <lastmod>2018-01-28T11:00:46-06:00</lastmod>
     <priority>0</priority>
@@ -144,7 +155,13 @@
   
   <url>
     <loc>http://rhg135.com/posts/</loc>
-    <lastmod>2018-02-02T11:47:53-06:00</lastmod>
+    <lastmod>2018-02-13T12:57:59-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rhg135.com/tags/social/</loc>
+    <lastmod>2018-02-13T12:57:59-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -174,7 +191,7 @@
   
   <url>
     <loc>http://rhg135.com/</loc>
-    <lastmod>2018-02-02T11:47:53-06:00</lastmod>
+    <lastmod>2018-02-13T12:57:59-06:00</lastmod>
     <priority>0</priority>
   </url>
   
