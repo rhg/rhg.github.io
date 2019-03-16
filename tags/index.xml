@@ -2,193 +2,193 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on tehblog</title>
-    <link>http://rhg135.com/tags/</link>
+    <link>https://rhg135.com/tags/</link>
     <description>Recent content in Tags on tehblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>No Rights Reserved &lt;a href=&#34;https://github.com/rhg&#34;&gt;Ricardo Gomez&lt;/a&gt;</copyright>
     <lastBuildDate>Sun, 28 Jan 2018 11:00:46 -0600</lastBuildDate>
     
-	<atom:link href="http://rhg135.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rhg135.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Addiction</title>
-      <link>http://rhg135.com/tags/addiction/</link>
+      <link>https://rhg135.com/tags/addiction/</link>
       <pubDate>Sun, 28 Jan 2018 11:00:46 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/addiction/</guid>
+      <guid>https://rhg135.com/tags/addiction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Clojure</title>
-      <link>http://rhg135.com/tags/clojure/</link>
+      <link>https://rhg135.com/tags/clojure/</link>
       <pubDate>Sun, 23 Aug 2015 12:33:14 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/clojure/</guid>
+      <guid>https://rhg135.com/tags/clojure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Code</title>
-      <link>http://rhg135.com/tags/code/</link>
+      <link>https://rhg135.com/tags/code/</link>
       <pubDate>Sun, 23 Aug 2015 12:33:14 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/code/</guid>
+      <guid>https://rhg135.com/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Copyright</title>
-      <link>http://rhg135.com/tags/copyright/</link>
+      <link>https://rhg135.com/tags/copyright/</link>
       <pubDate>Sat, 22 Aug 2015 13:54:00 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/copyright/</guid>
+      <guid>https://rhg135.com/tags/copyright/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Creative</title>
-      <link>http://rhg135.com/tags/creative/</link>
+      <link>https://rhg135.com/tags/creative/</link>
       <pubDate>Sat, 22 Aug 2015 13:54:00 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/creative/</guid>
+      <guid>https://rhg135.com/tags/creative/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cycling</title>
-      <link>http://rhg135.com/tags/cycling/</link>
+      <link>https://rhg135.com/tags/cycling/</link>
       <pubDate>Thu, 01 Feb 2018 13:25:05 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/cycling/</guid>
+      <guid>https://rhg135.com/tags/cycling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dependency</title>
-      <link>http://rhg135.com/tags/dependency/</link>
+      <link>https://rhg135.com/tags/dependency/</link>
       <pubDate>Sun, 28 Jan 2018 11:00:46 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/dependency/</guid>
+      <guid>https://rhg135.com/tags/dependency/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Draft</title>
-      <link>http://rhg135.com/tags/draft/</link>
+      <link>https://rhg135.com/tags/draft/</link>
       <pubDate>Tue, 30 Jan 2018 10:45:15 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/draft/</guid>
+      <guid>https://rhg135.com/tags/draft/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Drawing</title>
-      <link>http://rhg135.com/tags/drawing/</link>
+      <link>https://rhg135.com/tags/drawing/</link>
       <pubDate>Tue, 13 Feb 2018 12:57:59 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/drawing/</guid>
+      <guid>https://rhg135.com/tags/drawing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Drug</title>
-      <link>http://rhg135.com/tags/drug/</link>
+      <link>https://rhg135.com/tags/drug/</link>
       <pubDate>Sun, 28 Jan 2018 11:00:46 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/drug/</guid>
+      <guid>https://rhg135.com/tags/drug/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://rhg135.com/tags/hugo/</link>
+      <link>https://rhg135.com/tags/hugo/</link>
       <pubDate>Mon, 29 Jan 2018 11:23:54 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/hugo/</guid>
+      <guid>https://rhg135.com/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Law</title>
-      <link>http://rhg135.com/tags/law/</link>
+      <link>https://rhg135.com/tags/law/</link>
       <pubDate>Sat, 22 Aug 2015 13:54:00 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/law/</guid>
+      <guid>https://rhg135.com/tags/law/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meta</title>
-      <link>http://rhg135.com/tags/meta/</link>
+      <link>https://rhg135.com/tags/meta/</link>
       <pubDate>Mon, 29 Jan 2018 11:23:54 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/meta/</guid>
+      <guid>https://rhg135.com/tags/meta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mlp</title>
-      <link>http://rhg135.com/tags/mlp/</link>
+      <link>https://rhg135.com/tags/mlp/</link>
       <pubDate>Wed, 31 Jan 2018 11:52:27 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/mlp/</guid>
+      <guid>https://rhg135.com/tags/mlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Music</title>
-      <link>http://rhg135.com/tags/music/</link>
+      <link>https://rhg135.com/tags/music/</link>
       <pubDate>Fri, 02 Feb 2018 11:47:53 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/music/</guid>
+      <guid>https://rhg135.com/tags/music/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Napowrimo</title>
-      <link>http://rhg135.com/tags/napowrimo/</link>
+      <link>https://rhg135.com/tags/napowrimo/</link>
       <pubDate>Tue, 30 Jan 2018 10:45:15 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/napowrimo/</guid>
+      <guid>https://rhg135.com/tags/napowrimo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Social</title>
-      <link>http://rhg135.com/tags/social/</link>
+      <link>https://rhg135.com/tags/social/</link>
       <pubDate>Tue, 13 Feb 2018 12:57:59 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/social/</guid>
+      <guid>https://rhg135.com/tags/social/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spotify</title>
-      <link>http://rhg135.com/tags/spotify/</link>
+      <link>https://rhg135.com/tags/spotify/</link>
       <pubDate>Fri, 02 Feb 2018 11:47:53 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/spotify/</guid>
+      <guid>https://rhg135.com/tags/spotify/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Story</title>
-      <link>http://rhg135.com/tags/story/</link>
+      <link>https://rhg135.com/tags/story/</link>
       <pubDate>Tue, 30 Jan 2018 10:45:15 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/story/</guid>
+      <guid>https://rhg135.com/tags/story/</guid>
       <description></description>
     </item>
     
     <item>
       <title>What to Write</title>
-      <link>http://rhg135.com/tags/what-to-write/</link>
+      <link>https://rhg135.com/tags/what-to-write/</link>
       <pubDate>Wed, 31 Jan 2018 11:52:27 -0600</pubDate>
       
-      <guid>http://rhg135.com/tags/what-to-write/</guid>
+      <guid>https://rhg135.com/tags/what-to-write/</guid>
       <description></description>
     </item>
     

@@ -2,31 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on tehblog</title>
-    <link>http://rhg135.com/posts/</link>
+    <link>https://rhg135.com/posts/</link>
     <description>Recent content in Posts on tehblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>No Rights Reserved &lt;a href=&#34;https://github.com/rhg&#34;&gt;Ricardo Gomez&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 13 Feb 2018 12:57:59 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 16 Mar 2019 13:44:38 -0500</lastBuildDate>
     
-	<atom:link href="http://rhg135.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rhg135.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>More on Twitter</title>
+      <link>https://rhg135.com/posts/more-on-twitter/</link>
+      <pubDate>Sat, 16 Mar 2019 13:44:38 -0500</pubDate>
+      
+      <guid>https://rhg135.com/posts/more-on-twitter/</guid>
+      <description>I live more on Twitter these days. I am a man of few words so having a blog is hard for me sometimes. I try to write at least one tweet per day and if I ever need more space I&amp;rsquo;ll tweet a link to my blog.</description>
+    </item>
+    
+    <item>
       <title>I Am Getting Better at Drawing</title>
-      <link>http://rhg135.com/posts/i-am-getting-better-at-drawing/</link>
+      <link>https://rhg135.com/posts/i-am-getting-better-at-drawing/</link>
       <pubDate>Tue, 13 Feb 2018 12:57:59 -0600</pubDate>
       
-      <guid>http://rhg135.com/posts/i-am-getting-better-at-drawing/</guid>
+      <guid>https://rhg135.com/posts/i-am-getting-better-at-drawing/</guid>
       <description>It suddenly got really cold here and I haven&amp;rsquo;t been able to get out. So instead I&amp;rsquo;ve been drawing and experimenting with new styles. Looking back at my early drawings I am much better. You can watch my progress on deviantArt and fur affinity. Lately I&amp;rsquo;ve posted to fa, but usually I post to dA so check both out! Also be sure to follow my twitter as I usually post some sketches there.</description>
     </item>
     
     <item>
       <title>Music App</title>
-      <link>http://rhg135.com/posts/music-app/</link>
+      <link>https://rhg135.com/posts/music-app/</link>
       <pubDate>Fri, 02 Feb 2018 11:47:53 -0600</pubDate>
       
-      <guid>http://rhg135.com/posts/music-app/</guid>
+      <guid>https://rhg135.com/posts/music-app/</guid>
       <description>I really enjoy listening to music. There are several ways to get music.
  YT Music  Honestly, I don&amp;rsquo;t know much about this service. I did do the free trial and it seemed ok.
  Prime Music   I used this for a while as I have Prime and did like it, but a lot of music moved to their unlimited plan and I didn&amp;rsquo;t like that so I started to consider paying for a service.</description>
@@ -34,58 +43,58 @@
     
     <item>
       <title>Cycling Is Fun</title>
-      <link>http://rhg135.com/posts/cycling-is-fun/</link>
+      <link>https://rhg135.com/posts/cycling-is-fun/</link>
       <pubDate>Thu, 01 Feb 2018 13:25:05 -0600</pubDate>
       
-      <guid>http://rhg135.com/posts/cycling-is-fun/</guid>
+      <guid>https://rhg135.com/posts/cycling-is-fun/</guid>
       <description>Cycling is fun. Even though I am so out of practice and I can&amp;rsquo;t use a bicycle that doesn&amp;rsquo;t stop me. I bought myself a tricycle and recently have started using it again. I used to, but stopped due to crippling depression and anxiety. </description>
     </item>
     
     <item>
       <title>What to Write</title>
-      <link>http://rhg135.com/posts/what-to-write-1/</link>
+      <link>https://rhg135.com/posts/what-to-write-1/</link>
       <pubDate>Wed, 31 Jan 2018 11:52:27 -0600</pubDate>
       
-      <guid>http://rhg135.com/posts/what-to-write-1/</guid>
+      <guid>https://rhg135.com/posts/what-to-write-1/</guid>
       <description>I don&amp;rsquo;t even know what to write today. I&amp;rsquo;m not very interesting, but why should I just not write today. Instead, I will write these posts about not knowing what to write and randomness.
 I&amp;rsquo;m not very versed at speaking from my self rather I prefer a prompt or question; which, of course, on a blog I don&amp;rsquo;t have. I will try my best though. So let&amp;rsquo;s just review the past few months.</description>
     </item>
     
     <item>
       <title>NaPoWriMo Entry</title>
-      <link>http://rhg135.com/posts/napowrimo-firstdraft/</link>
+      <link>https://rhg135.com/posts/napowrimo-firstdraft/</link>
       <pubDate>Tue, 30 Jan 2018 10:45:15 -0600</pubDate>
       
-      <guid>http://rhg135.com/posts/napowrimo-firstdraft/</guid>
+      <guid>https://rhg135.com/posts/napowrimo-firstdraft/</guid>
       <description>I wrote a story for NaPoWriMo. For those that don&amp;rsquo;t know what it is it&amp;rsquo;s basically a self-imposed challange to write a My Little Pony: Friendship is Magic fanfiction. I didn&amp;rsquo;t get to the 50k, but I did get to the 25k mark.
 Here it is. Eventually I will go over it and polish it up for editing. Right now it has a few major flaws.</description>
     </item>
     
     <item>
       <title>Hugo Migration</title>
-      <link>http://rhg135.com/posts/hugo-migration/</link>
+      <link>https://rhg135.com/posts/hugo-migration/</link>
       <pubDate>Mon, 29 Jan 2018 11:23:54 -0600</pubDate>
       
-      <guid>http://rhg135.com/posts/hugo-migration/</guid>
+      <guid>https://rhg135.com/posts/hugo-migration/</guid>
       <description>I don&amp;rsquo;t know if this is better but it works just took a bit to migrate it. I had lost all the posts and I was new to hugo. There is supposed to be disqus support but I couldn&amp;rsquo;t get it working.
 I&amp;rsquo;ve changed my mind on the disqus thing. More like accepted it. A lot of blogs use it and implementing anything else on this theme right now would be too hard.</description>
     </item>
     
     <item>
       <title>Dependency is Not Addiction</title>
-      <link>http://rhg135.com/posts/dependency/</link>
+      <link>https://rhg135.com/posts/dependency/</link>
       <pubDate>Sun, 28 Jan 2018 11:00:46 -0600</pubDate>
       
-      <guid>http://rhg135.com/posts/dependency/</guid>
+      <guid>https://rhg135.com/posts/dependency/</guid>
       <description>I&amp;rsquo;ll admit it; I am dependant on three drugs, but I am not an addict. The first of these is clear-cut, fluoxetine. I take it, good, I don&amp;rsquo;t, bad. Very bad. The second is Abilify. Same deal. The third is slightly more complex, Lyrica. When I take it I feel as I did years ago, but if I don&amp;rsquo;t then I get terrible nausea. A lot of people assume this is the same as addiction.</description>
     </item>
     
     <item>
       <title>What to Pass: a Var or IFn?</title>
-      <link>http://rhg135.com/posts/what-to-pass/</link>
+      <link>https://rhg135.com/posts/what-to-pass/</link>
       <pubDate>Sun, 23 Aug 2015 12:33:14 -0600</pubDate>
       
-      <guid>http://rhg135.com/posts/what-to-pass/</guid>
+      <guid>https://rhg135.com/posts/what-to-pass/</guid>
       <description>Mapping a function over a channel You have a function you are developing:
 (defn name-string &amp;quot;Gives you the name string from a suitable map&amp;quot; [{:keys [first-name]}] first-name)  and you want to run this on maps you get over, say, a socket. Thus you shove it up a channel with an attached transducer of (map name-string) (or with a pipeline of the actual data channel, for the indirection).
 A Problem Arises Now, you want to incorporate the last name as an initial.</description>
@@ -93,10 +102,10 @@ A Problem Arises Now, you want to incorporate the last name as an initial.</desc
     
     <item>
       <title>On Licensing</title>
-      <link>http://rhg135.com/posts/on-licensing/</link>
+      <link>https://rhg135.com/posts/on-licensing/</link>
       <pubDate>Sat, 22 Aug 2015 13:54:00 -0600</pubDate>
       
-      <guid>http://rhg135.com/posts/on-licensing/</guid>
+      <guid>https://rhg135.com/posts/on-licensing/</guid>
       <description>What about it? Copyright is broken. The whole concept of controlling copying of a resource is just not viable, and furthermore erronous. To me it is reminiscent of censorship, and we all know how well that works.
 Lately I have been releasing any works to the public domain. Before discussing why, let&amp;rsquo;s examine this &amp;ldquo;copyright&amp;rdquo; thing.
 What got me thinking about this I don&amp;rsquo;t recall what exactly was being looked for when I saw a project on github with an UNLICENSE file.</description>
@@ -104,10 +113,10 @@ What got me thinking about this I don&amp;rsquo;t recall what exactly was being 
     
     <item>
       <title>Look Ma! I Made Post!</title>
-      <link>http://rhg135.com/posts/look-ma-i-made-post/</link>
+      <link>https://rhg135.com/posts/look-ma-i-made-post/</link>
       <pubDate>Fri, 21 Aug 2015 13:09:11 -0600</pubDate>
       
-      <guid>http://rhg135.com/posts/look-ma-i-made-post/</guid>
+      <guid>https://rhg135.com/posts/look-ma-i-made-post/</guid>
       <description>So, I have a blog. For a long time I pondered it, but never acted. Today a switch in my head finally flipped, and I became allowed to start writing; and more than that, setting up the infrastructure.
 Fortunately—for me—my blog engine—cryogen—was very easy to set-up and soon I was producing. Cryogen is distributed as a template for leiningen, and this made it easy to get started. For more details see the homepage for cryogen.</description>
     </item>

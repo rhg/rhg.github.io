@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spotify on tehblog</title>
-    <link>http://rhg135.com/tags/spotify/</link>
+    <link>https://rhg135.com/tags/spotify/</link>
     <description>Recent content in Spotify on tehblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>No Rights Reserved &lt;a href=&#34;https://github.com/rhg&#34;&gt;Ricardo Gomez&lt;/a&gt;</copyright>
     <lastBuildDate>Fri, 02 Feb 2018 11:47:53 -0600</lastBuildDate>
     
-	<atom:link href="http://rhg135.com/tags/spotify/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rhg135.com/tags/spotify/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Music App</title>
-      <link>http://rhg135.com/posts/music-app/</link>
+      <link>https://rhg135.com/posts/music-app/</link>
       <pubDate>Fri, 02 Feb 2018 11:47:53 -0600</pubDate>
       
-      <guid>http://rhg135.com/posts/music-app/</guid>
+      <guid>https://rhg135.com/posts/music-app/</guid>
       <description>I really enjoy listening to music. There are several ways to get music.
  YT Music  Honestly, I don&amp;rsquo;t know much about this service. I did do the free trial and it seemed ok.
  Prime Music   I used this for a while as I have Prime and did like it, but a lot of music moved to their unlimited plan and I didn&amp;rsquo;t like that so I started to consider paying for a service.</description>

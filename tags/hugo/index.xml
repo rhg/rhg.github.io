@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on tehblog</title>
-    <link>http://rhg135.com/tags/hugo/</link>
+    <link>https://rhg135.com/tags/hugo/</link>
     <description>Recent content in Hugo on tehblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>No Rights Reserved &lt;a href=&#34;https://github.com/rhg&#34;&gt;Ricardo Gomez&lt;/a&gt;</copyright>
     <lastBuildDate>Mon, 29 Jan 2018 11:23:54 -0600</lastBuildDate>
     
-	<atom:link href="http://rhg135.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rhg135.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo Migration</title>
-      <link>http://rhg135.com/posts/hugo-migration/</link>
+      <link>https://rhg135.com/posts/hugo-migration/</link>
       <pubDate>Mon, 29 Jan 2018 11:23:54 -0600</pubDate>
       
-      <guid>http://rhg135.com/posts/hugo-migration/</guid>
+      <guid>https://rhg135.com/posts/hugo-migration/</guid>
       <description>I don&amp;rsquo;t know if this is better but it works just took a bit to migrate it. I had lost all the posts and I was new to hugo. There is supposed to be disqus support but I couldn&amp;rsquo;t get it working.
 I&amp;rsquo;ve changed my mind on the disqus thing. More like accepted it. A lot of blogs use it and implementing anything else on this theme right now would be too hard.</description>
     </item>

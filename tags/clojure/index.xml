@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clojure on tehblog</title>
-    <link>http://rhg135.com/tags/clojure/</link>
+    <link>https://rhg135.com/tags/clojure/</link>
     <description>Recent content in Clojure on tehblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>No Rights Reserved &lt;a href=&#34;https://github.com/rhg&#34;&gt;Ricardo Gomez&lt;/a&gt;</copyright>
     <lastBuildDate>Sun, 23 Aug 2015 12:33:14 -0600</lastBuildDate>
     
-	<atom:link href="http://rhg135.com/tags/clojure/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rhg135.com/tags/clojure/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What to Pass: a Var or IFn?</title>
-      <link>http://rhg135.com/posts/what-to-pass/</link>
+      <link>https://rhg135.com/posts/what-to-pass/</link>
       <pubDate>Sun, 23 Aug 2015 12:33:14 -0600</pubDate>
       
-      <guid>http://rhg135.com/posts/what-to-pass/</guid>
+      <guid>https://rhg135.com/posts/what-to-pass/</guid>
       <description>Mapping a function over a channel You have a function you are developing:
 (defn name-string &amp;quot;Gives you the name string from a suitable map&amp;quot; [{:keys [first-name]}] first-name)  and you want to run this on maps you get over, say, a socket. Thus you shove it up a channel with an attached transducer of (map name-string) (or with a pipeline of the actual data channel, for the indirection).
 A Problem Arises Now, you want to incorporate the last name as an initial.</description>
