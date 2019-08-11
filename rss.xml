@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[tehblog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://rhg135.com</link><generator>RSS for Node</generator><lastBuildDate>Sun, 11 Aug 2019 17:04:35 GMT</lastBuildDate><item><title><![CDATA[Gatsby Migration]]></title><description><![CDATA[I’m trying to move this blog over to gatsbyjs
+because I actually know js unlike go and because I’m interested in React. Having my site done…]]></description><link>https://rhg135.com/gatsby-migration/</link><guid isPermaLink="false">https://rhg135.com/gatsby-migration/</guid><pubDate>Sun, 11 Aug 2019 15:46:38 GMT</pubDate><content:encoded>&lt;p&gt;I’m trying to move this blog over to &lt;a href=&quot;https://www.gatsbyjs.org&quot;&gt;gatsbyjs&lt;/a&gt;
+because I actually know js unlike go and because I’m interested in &lt;a href=&quot;https://reactjs.org&quot;&gt;React&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Having my site done in js helps in that I can add demo apps and custom content to my site
+without having to wait for someone to do it or learning go. Plus React is rather unique
+so I would have to code in js for that to happen.&lt;/p&gt;
+&lt;p&gt;I actually wanted to code up a simple game and post it on my site but I could never
+figure out how to use custom content in hugo. I was going to code it in React anyway so
+might as well use it for my blog.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[More on Twitter]]></title><description><![CDATA[I live more on Twitter these days. I am a man of few words so having a blog is hard for me sometimes.
+I try to write at least one tweet per…]]></description><link>https://rhg135.com/more-on-twitter/</link><guid isPermaLink="false">https://rhg135.com/more-on-twitter/</guid><pubDate>Sat, 16 Mar 2019 18:44:38 GMT</pubDate><content:encoded>&lt;p&gt;I live more on Twitter these days. I am a man of few words so having a blog is hard for me sometimes.
+I try to write at least one tweet per day and if I ever need more space I’ll tweet a link to my blog.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[I Am Getting Better at Drawing]]></title><description><![CDATA[It suddenly got really cold here and I haven’t been able to get out.
+So instead I’ve been drawing and experimenting with new styles.
+Looking…]]></description><link>https://rhg135.com/I-am-getting-better-at-drawing/</link><guid isPermaLink="false">https://rhg135.com/I-am-getting-better-at-drawing/</guid><pubDate>Tue, 13 Feb 2018 18:57:59 GMT</pubDate><content:encoded>&lt;p&gt;It suddenly got really cold here and I haven’t been able to get out.
+So instead I’ve been drawing and experimenting with new styles.
+Looking back at my early drawings I am much better.
+You can watch my progress on &lt;a href=&quot;https://rhg135.deviantart.com&quot;&gt;deviantArt&lt;/a&gt;
+and &lt;a href=&quot;http://furaffinity.net/user/rhg135&quot;&gt;fur affinity&lt;/a&gt;.
+Lately I’ve posted to fa, but usually I post to dA so check both out!
+Also be sure to follow my &lt;a href=&quot;https://twitter.com/rhg135&quot;&gt;twitter&lt;/a&gt; as I usually post some sketches there.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Music App]]></title><description><![CDATA[I really enjoy listening to music. There are several ways to get music. YT Music Honestly, I don’t know much about this service. I did do…]]></description><link>https://rhg135.com/music-app/</link><guid isPermaLink="false">https://rhg135.com/music-app/</guid><pubDate>Fri, 02 Feb 2018 17:47:53 GMT</pubDate><content:encoded>&lt;p&gt;I really enjoy listening to music. There are several ways to get music.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;YT Music&lt;/p&gt;
+&lt;p&gt;Honestly, I don’t know much about this service. I did do the free trial and it
+seemed ok.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Prime Music&lt;/p&gt;
+&lt;p&gt;I used this for a while as I have &lt;em&gt;Prime&lt;/em&gt; and did like it, but a lot of music
+moved to their unlimited plan and I didn’t like that so I started to consider
+paying for a service. I especially liked the lyrics that scrolled.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Play Music&lt;/p&gt;
+&lt;p&gt;I did the free trial of this too and it was &lt;em&gt;ok&lt;/em&gt;. Just ok. It worked and had
+good selection.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;iTunes Music&lt;/p&gt;
+&lt;p&gt;I don’t have an iPhone.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spotify&lt;/p&gt;
+&lt;p&gt;This service was the winner. It’s both social and musical. Social in that you
+can make public playlists that other users can see. As a bonus on the musical
+side they have their own studios and have exclusive music.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I really enjoy using spotify. The app is good; on desktop, Android, and
+iOS. I do have three gripes for the app.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mobile app can’t read local files thus can’t be used as music app.&lt;/li&gt;
+&lt;li&gt;No lyrics on most songs on mobile or any on desktop.&lt;/li&gt;
+&lt;li&gt;Can’t make a playlist from a station on Android.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Cycling Is Fun]]></title><description><![CDATA[Cycling is fun. Even though I am so out of practice and I can’t use a bicycle
+that doesn’t stop me. I bought myself a tricycle and recently…]]></description><link>https://rhg135.com/cycling-is-fun/</link><guid isPermaLink="false">https://rhg135.com/cycling-is-fun/</guid><pubDate>Thu, 01 Feb 2018 19:25:05 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a9080b04d6ade9bededd38453255487b/590ba/Cycling1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.77777777777777%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAMEAgEF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAGhfYz0jREis1U8SZukgLA1P//EABwQAAIDAAMBAAAAAAAAAAAAAAECAAMREyEzIv/aAAgBAQABBQJHw8xMW0Zf5U9GXkEVekXC9S5C2EKMXuh/k//EABYRAQEBAAAAAAAAAAAAAAAAABEAIP/aAAgBAwEBPwEjP//EABcRAAMBAAAAAAAAAAAAAAAAAAARIEH/2gAIAQIBAT8BYzI//8QAHBAAAgMBAAMAAAAAAAAAAAAAAAERITESEFGB/9oACAEBAAY/Am2nyN81NGETpKzGYKNGoqPClUxj6cGD+iS9H//EAB4QAAICAgIDAAAAAAAAAAAAAAABESExQVFhEHGx/9oACAEBAAE/IWqLDaIMT4BXMO9Dd9Dtdy0exNcBLOtLFwGzxm90RIpHiLgSk21RwVURYLuwqxEf/9oADAMBAAIAAwAAABDTJzF3z//EABgRAAMBAQAAAAAAAAAAAAAAAAABERAx/9oACAEDAQE/EGlJOso8/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/EBJbtzFjEX//xAAhEAEAAwACAgEFAAAAAAAAAAABABEhMUFRYXGBkaHR4f/aAAgBAQABPxAg/wCO1kFB8UO/Ku5TL95JZOlUl4ef1GZtniHBr5PzElu3qNkXx4VvrmHpVShlj/JQ81LOjMbpfXq4GktFfCxqOYGx6PEp7pVaW/eG9e0u45BQqh3zP//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Me on the tricycle&quot;
+        title=&quot;Me on the tricycle&quot;
+        src=&quot;/static/a9080b04d6ade9bededd38453255487b/c739e/Cycling1.jpg&quot;
+        srcset=&quot;/static/a9080b04d6ade9bededd38453255487b/8ee9c/Cycling1.jpg 148w,
+/static/a9080b04d6ade9bededd38453255487b/ebbe7/Cycling1.jpg 295w,
+/static/a9080b04d6ade9bededd38453255487b/c739e/Cycling1.jpg 590w,
+/static/a9080b04d6ade9bededd38453255487b/5413e/Cycling1.jpg 885w,
+/static/a9080b04d6ade9bededd38453255487b/4efde/Cycling1.jpg 1180w,
+/static/a9080b04d6ade9bededd38453255487b/590ba/Cycling1.jpg 2592w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+Cycling is fun. Even though I am so out of practice and I can’t use a bicycle
+that doesn’t stop me. I bought myself a tricycle and recently have started
+using it again. I used to, but stopped due to crippling depression and anxiety.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/417ceaeb39e1fb78393b76f7d0e486e2/bec84/Cycling2.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgEA/9oADAMBAAIQAxAAAAG1X8wrcaybks3NUgkF/8QAHRAAAgEEAwAAAAAAAAAAAAAAAQISAAMRExAhQf/aAAgBAQABBQL3Y8+6ZgAonerLRgQAMAKNnH//xAAWEQEBAQAAAAAAAAAAAAAAAAAQARH/2gAIAQMBAT8Bph//xAAXEQADAQAAAAAAAAAAAAAAAAAAAhEQ/9oACAECAQE/AVKXP//EAB4QAAIBAwUAAAAAAAAAAAAAAAARARAxMgISIUFS/9oACAEBAAY/AjEx1jiBvu9NrZ5ik8Wr/8QAHhABAAICAQUAAAAAAAAAAAAAAQARQVEhEDFhcYH/2gAIAQEAAT8hFBRbrcbRwXF8zySUo2bxGprKe+Yqk74nxajNTiAnr5UQ10//2gAMAwEAAgADAAAAEPDMDv/EABgRAQEAAwAAAAAAAAAAAAAAAAEAEBFR/9oACAEDAQE/EGNojrH/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAECAQE/ELKHOJFP/8QAIBABAAIBBAIDAAAAAAAAAAAAAQARITFBUWFxkRCBsf/aAAgBAQABPxB/YnF68LmLJFCUG3u4XLYc4DEbI6CsdnqHklKRV1uVocEzkNvcaicQtjU5L3eoCAuoXNUFh7+4AEA0OIBQZ+Gxv8mopfNfH//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Me on the tricycle&quot;
+        title=&quot;Me on the tricycle&quot;
+        src=&quot;/static/417ceaeb39e1fb78393b76f7d0e486e2/c739e/Cycling2.jpg&quot;
+        srcset=&quot;/static/417ceaeb39e1fb78393b76f7d0e486e2/8ee9c/Cycling2.jpg 148w,
+/static/417ceaeb39e1fb78393b76f7d0e486e2/ebbe7/Cycling2.jpg 295w,
+/static/417ceaeb39e1fb78393b76f7d0e486e2/c739e/Cycling2.jpg 590w,
+/static/417ceaeb39e1fb78393b76f7d0e486e2/5413e/Cycling2.jpg 885w,
+/static/417ceaeb39e1fb78393b76f7d0e486e2/4efde/Cycling2.jpg 1180w,
+/static/417ceaeb39e1fb78393b76f7d0e486e2/bec84/Cycling2.jpg 3456w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[What to Write]]></title><description><![CDATA[I don’t even know what to write today. I’m not very interesting, but why should I just not write today.
+Instead, I will write these posts…]]></description><link>https://rhg135.com/what-to-write-1/</link><guid isPermaLink="false">https://rhg135.com/what-to-write-1/</guid><pubDate>Wed, 31 Jan 2018 17:52:27 GMT</pubDate><content:encoded>&lt;p&gt;I don’t even know what to write today. I’m not very interesting, but why should I just not write today.
+Instead, I will write these posts about not knowing what to write and randomness.&lt;/p&gt;
+&lt;p&gt;I’m not very versed at speaking from my self rather I prefer a prompt or question;
+which, of course, on a blog I don’t have. I will try my best though.
+So let’s just review the past few months.&lt;/p&gt;
+&lt;h2&gt;October&lt;/h2&gt;
+&lt;p&gt;This was a good month for me. At the start of the month, on the 5th, I went to see &lt;em&gt;My Little Pony: The Movie&lt;/em&gt; in a local theater, where the room was packed with fans, saw a great film, and had the strongest drink I’d had till then.
+Then at the end of the month, 27-29, I went to the &lt;em&gt;Nightmare Nights&lt;/em&gt; convention, a &lt;em&gt;Friendship is Magic&lt;/em&gt; fan convention. It was fun, saw a lot of cool things, but didn’t talk much to people.&lt;/p&gt;
+&lt;h2&gt;November&lt;/h2&gt;
+&lt;p&gt;This month was a lot more laid back. Our Thanksgiving was low-key and we just played &lt;em&gt;Monopoly&lt;/em&gt; at home. Then the next day we went with family.
+After all this we returned to the normal routine. At the very end of the month I had to choose whether to accompany my mom on an emergency visit, and left and got to see the beach for real finally.
+The plane ride ane subsequent car, wer so long and added to my lack of sleep made it so that when I arrived I was so tired.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[NaPoWriMo Entry]]></title><description><![CDATA[I wrote a story for NaPoWriMo. For those that don’t know what it is it’s basically a self-imposed challange to write a My Little Pony…]]></description><link>https://rhg135.com/napowrimo-firstdraft/</link><guid isPermaLink="false">https://rhg135.com/napowrimo-firstdraft/</guid><pubDate>Tue, 30 Jan 2018 16:45:15 GMT</pubDate><content:encoded>&lt;p&gt;I wrote a story for NaPoWriMo. For those that don’t know what it is &lt;a href=&quot;https://www.equestriadaily.com/2017/10/announcing-national-pony-writing-month.html&quot;&gt;it’s basically a self-imposed challange to write a My Little Pony: Friendship is Magic fanfiction&lt;/a&gt;. I didn’t get to the 50k, but I did get to the 25k mark.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1uji3xv_caonOR8PJAovA7zDmVv4c-M_j03hvUgD2WnE/edit?usp=sharing&quot;&gt;Here&lt;/a&gt; it is. Eventually I will go over it and polish it up for editing. Right now it has a few major flaws.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hugo Migration]]></title><description><![CDATA[I don’t know if this is better but it works just took a bit to migrate it.
+I had lost all the posts and I was new to hugo.
+There is supposed…]]></description><link>https://rhg135.com/hugo-migration/</link><guid isPermaLink="false">https://rhg135.com/hugo-migration/</guid><pubDate>Mon, 29 Jan 2018 17:23:54 GMT</pubDate><content:encoded>&lt;p&gt;I don’t know if this is better but it works just took a bit to migrate it.
+I had lost all the posts and I was new to hugo.
+There is supposed to be disqus support but I couldn’t get it working.&lt;/p&gt;
+&lt;p&gt;I’ve changed my mind on the disqus thing.
+More like accepted it.
+A lot of blogs use it and implementing anything else on this theme right now would be too hard.
+I’d rather be writing a post and not go almost three years with no post.&lt;/p&gt;
+&lt;p&gt;I’m using the beautiful hemingway2 theme which seems to be what I want.
+Just need to add a link to an irc client but that’s for later.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Dependency is Not Addiction]]></title><description><![CDATA[I’ll admit it; I am dependant on three drugs, but I am not an addict.
+The first of these is clear-cut, fluoxetine.
+I take it, good, I don’t…]]></description><link>https://rhg135.com/dependency/</link><guid isPermaLink="false">https://rhg135.com/dependency/</guid><pubDate>Sun, 28 Jan 2018 17:00:46 GMT</pubDate><content:encoded>&lt;p&gt;I’ll admit it; I am dependant on three drugs, but I am not an addict.
+The first of these is clear-cut, fluoxetine.
+I take it, good, I don’t, bad. Very bad.
+The second is Abilify.
+Same deal.
+The third is slightly more complex, Lyrica.
+When I take it I feel as I did years ago, but if I don’t then I get terrible nausea.
+A lot of people assume this is the same as addiction.
+&lt;strong&gt;It is not!&lt;/strong&gt;
+Dependency, to me, is when you &lt;em&gt;need&lt;/em&gt; the drug.
+Addiction is when you &lt;em&gt;want&lt;/em&gt; the drug.
+Furthermore it is possible to have both.
+For example some alcoholics both crave alcohol and experience withdrawal.
+It is also quite possible, and common when wanting to quit, to step down from addiction and dependance to just dependance.
+That is when you realize you want to quit, but still need the drug.
+I’ve sort of experienced this with Lyrica when I tried to stop due to side-effects. I managed to cold-turkey, but then came the withdrawal so now I am back on.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[What to Pass: a Var or IFn?]]></title><description><![CDATA[Mapping a function over a channel You have a function you are developing: and you want to run this on maps you get over, say, a socket. Thus…]]></description><link>https://rhg135.com/what-to-pass/</link><guid isPermaLink="false">https://rhg135.com/what-to-pass/</guid><pubDate>Sun, 23 Aug 2015 18:33:14 GMT</pubDate><content:encoded>&lt;h2&gt;Mapping a function over a channel&lt;/h2&gt;
+&lt;p&gt;You have a function you are developing:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;(defn name-string
+  &amp;quot;Gives you the name string from a suitable map&amp;quot;
+  [{:keys [first-name]}]
+  first-name)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;and you want to run this on maps you get over, say, a socket. Thus you shove it up a channel with an attached transducer of &lt;code class=&quot;language-text&quot;&gt;(map name-string)&lt;/code&gt; (or with a pipeline of the actual data channel, for the indirection).&lt;/p&gt;
+&lt;h2&gt;A Problem Arises&lt;/h2&gt;
+&lt;p&gt;Now, you want to incorporate the last name as an initial. Thus:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;(defn name-string
+  &amp;quot;Gives you a first name with a last name initial&amp;quot;
+  [{:keys [first-name last-name]}]
+  (str first-name \space (first last-name) &amp;quot;.&amp;quot;))&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;But, oh noes! The old definition is still used. Naïvely you would restart the input source (or if you did use indirection, point it to a new channel). There is a better way, for development purposes. This does incur a small overhead and allows a feature which may be a security hole in production.&lt;/p&gt;
+&lt;h2&gt;What is &lt;code class=&quot;language-text&quot;&gt;a-function&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;This will resolve at compile time to the current value of the var named by the symbol (or just the value bound to it if a local). This is usually an IFn instance if it’s a function. This works fine and dandy in a language with no runtime definitions—&lt;em&gt;cough&lt;/em&gt; java &lt;em&gt;cough&lt;/em&gt;—but it falls flat when used in a dynamic language. It is consistent and logical, unfortunately it does sometimes surprise people when redefinitions do nothing.&lt;/p&gt;
+&lt;h2&gt;What Is #‘a-function&lt;/h2&gt;
+&lt;p&gt;At read time this will turn to &lt;code class=&quot;language-text&quot;&gt;(var a-function)&lt;/code&gt;. At runtime it evaluates to a &lt;code class=&quot;language-text&quot;&gt;clojure.lang.Var&lt;/code&gt; object if a-function is a global. The meta-magic here is that &lt;code class=&quot;language-text&quot;&gt;Var&lt;/code&gt; implements &lt;code class=&quot;language-text&quot;&gt;IFn&lt;/code&gt;, and if it’s a var for a function, invoking the var will invoke the function the var currently points at. I can hear thosee of you saying “that’s a reference,” and you are indeed correctish. &lt;code class=&quot;language-text&quot;&gt;Var&lt;/code&gt;s are one in the sense they allow mutability, but they also don’t allow much else. You can also change the root binding atomically (I think), and if it is marked dynamic (by having &lt;code class=&quot;language-text&quot;&gt;:dynamic true&lt;/code&gt; in the metadata) you can change the current thread binding for a function call.&lt;/p&gt;
+&lt;h2&gt;Just Show Me The Codes!&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;(require &amp;#39;[clojure.core.async :as a])
+;=&amp;gt; nil
+
+(defn my-char
+  [x]
+  (char x))
+;=&amp;gt; #&amp;#39;user/my-char
+
+(def ch (a/chan 1 (map my-char)))
+;=&amp;gt; #&amp;#39;user/ch
+
+(a/&amp;gt;!! ch 97)
+;=&amp;gt; true
+
+(a/&amp;lt;!! ch)
+;=&amp;gt; \a
+
+; now let&amp;#39;s redefine our function
+
+(alter-var-root #&amp;#39;my-char comp inc)
+
+; now it incs the number before turning it to a character
+
+(a/&amp;gt;!! ch 97)
+;=&amp;gt; true
+
+(= \b (a/&amp;lt;!! ch))
+;=&amp;gt; false
+
+; oh noez! press the panic button!
+
+; or do this when creating the channel
+
+(defn my-char
+  [x]
+  (char x))
+;=&amp;gt; #&amp;#39;user/my-char
+
+(def ch (a/chan 1 (map #&amp;#39;my-char)))
+;=&amp;gt; user/ch
+
+(a/&amp;gt;!! ch 97)
+;=&amp;gt; true
+
+(= \a (a/&amp;lt;!! ch))
+;=&amp;gt; true
+
+(alter-var-root #&amp;#39;my-char comp inc)
+;=&amp;gt; an instance of IFn
+
+(a/&amp;gt;!! ch 97)
+;=&amp;gt; true
+
+(= \b (a/&amp;lt;!! ch))
+;=&amp;gt; true
+
+; yay!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[On Licensing]]></title><description><![CDATA[What about it? Copyright is broken. The whole concept of controlling copying of a resource is just not viable, and furthermore erronous. To…]]></description><link>https://rhg135.com/on-licensing/</link><guid isPermaLink="false">https://rhg135.com/on-licensing/</guid><pubDate>Sat, 22 Aug 2015 19:54:00 GMT</pubDate><content:encoded>&lt;h1&gt;What about it?&lt;/h1&gt;
+&lt;p&gt;Copyright is broken. The whole concept of controlling copying of a resource is just not viable, and furthermore erronous. To me it is reminiscent of censorship, and we all know how well that works.&lt;/p&gt;
+&lt;p&gt;Lately I have been releasing any works to the public domain. Before discussing why, let’s examine this “copyright” thing.&lt;/p&gt;
+&lt;h1&gt;What got me thinking about this&lt;/h1&gt;
+&lt;p&gt;I don’t recall what exactly was being looked for when I saw a project on github with an &lt;code class=&quot;language-text&quot;&gt;UNLICENSE&lt;/code&gt; file. Initially I payed no mind to this and I went on my way. Little did I know of the reagent I had encountered.&lt;/p&gt;
+&lt;p&gt;A few days later—presumably because I was about to release a chunk of code—I began to wonder why we could just copy certain works, yet most code had to be attributed—in the best case—or bought. I suddenly remembered the &lt;a href=&quot;http://unlicense.org&quot;&gt;link&lt;/a&gt; at the bottom of that &lt;code class=&quot;language-text&quot;&gt;UNLICENSE&lt;/code&gt;. I read a bit and although I don’t agree with it completely, I began to question why copyright exists.&lt;/p&gt;
+&lt;h1&gt;Why copyright&lt;/h1&gt;
+&lt;p&gt;I’m not going to rehash all of the history of copyright, just look at reasons people commonly cite for copyright.&lt;/p&gt;
+&lt;h2&gt;Credit/Attribution&lt;/h2&gt;
+&lt;p&gt;This is—quite possibly—the most common excuse for copyright I’ve seen. Manifests in common Creative Commons licences for art and in BSD type licenses for code. I fail to see how this would not work, but it is incredibly heavy handed and inpractical.&lt;/p&gt;
+&lt;p&gt;Many circles already have a name for this called &lt;code class=&quot;language-text&quot;&gt;plagiarism&lt;/code&gt;. &lt;a href=&quot;http://merriam-webster.com/dictionary/plagiarism&quot;&gt;Merriam-Webster&lt;/a&gt; defines this as “the act of using another person’s words or ideas without giving credit to that person”. In academia this is a very a serious offense. Just ask any of the many students expelled for it. In other circles it is also considered common curtesy. In light of this, is applying law to the problem of plagiarism a proper aid?&lt;/p&gt;
+&lt;p&gt;And what happens when your works are plagiarized? If you did not place copyright on it, nothing (assuming plagiarism is fine). If you did, either you sue or you let the law be broken. Assuming you’re not a sadist, I doubt you’ll do the former. If a law is meant to be broken, then what’s the point of said law?&lt;/p&gt;
+&lt;h2&gt;Control&lt;/h2&gt;
+&lt;p&gt;This is not quite as common, but still a reason. I am guilty of this one too. The aim is to maintain control on a project, and this is pretty close to an actual reason.&lt;/p&gt;
+&lt;p&gt;Usually achieved partially via closed source in software and strict licensing in art. Not being an artist I can’t say how it is managed; so I will seek code. Two related project I am slightly familiar with and have vastly different approaches to this would be &lt;a href=&quot;http://clojure.org&quot;&gt;clojure&lt;/a&gt; and &lt;a href=&quot;http://datomic.com&quot;&gt;datomic&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Clojure is under the EPL 1.0 which actually allows forks. Many forks actually do exist, &lt;a href=&quot;http://kiwiirc.com/client/irc.freenode.net/#clojure&quot;&gt;#clojure&lt;/a&gt; on freenode, the &lt;a href=&quot;http://groups.google.com/group/clojure&quot;&gt;mailing lists&lt;/a&gt; and other sources do a decent job of reminding people of the downsides of using forks. So while you’re welcome to run your own forks, the community at large tries hard to use the canonical implementation. The way this is implemented on the &lt;a href=&quot;http://openjdk.java.net/&quot;&gt;JVM&lt;/a&gt; makes it rather easy to swap the implementation of clojure at launch. This is very useful for testing new features before inclusion in the upstream code.&lt;/p&gt;
+&lt;p&gt;Datomic on the other hand is not open source and has a custom EULA. This establishes control firmly for Cognitect at the expense of customization for users. As datomic is enterprise software—and relatively small—this could be a fair trade-off. And considering datomic was made after clojure it is plausible that the EPL-shaded picture I painted previously isn’t as well-made as I think.&lt;/p&gt;
+&lt;h2&gt;Monetary Endowement&lt;/h2&gt;
+&lt;p&gt;I would have to claim pure greed for this, but that’s my opinion and don’t care much.&lt;/p&gt;
+&lt;h2&gt;Why &lt;em&gt;I&lt;/em&gt; avoid it&lt;/h2&gt;
+&lt;p&gt;I feel as I received for free what little skill I have and it is very fitting for me to give it freely. Not just me, but I feel everyone should do the same as they all received in the same manner. I do not pretend to have any such ability to force anyone, and furthermore I do not think it’d be right to. Therefore I hope that by doing this I can set yet another example for any other content creator out there.&lt;/p&gt;
+&lt;p&gt;I may not be very creative, or even well-endowed in programming, but darn it if I’m not going to share what I do create!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Look Ma! I Made Post!]]></title><description><![CDATA[So, I have a blog. For a long time I pondered it, but never acted. Today a switch in my head finally flipped, and I became allowed to start…]]></description><link>https://rhg135.com/look-ma-I-made-post/</link><guid isPermaLink="false">https://rhg135.com/look-ma-I-made-post/</guid><pubDate>Fri, 21 Aug 2015 19:09:11 GMT</pubDate><content:encoded>&lt;h2&gt;So, I have a blog.&lt;/h2&gt;
+&lt;p&gt;For a long time I pondered it, but never acted. Today a switch in my head finally flipped, and I became allowed to start writing; and more than that, setting up the infrastructure.&lt;/p&gt;
+&lt;p&gt;Fortunately—for me—my blog engine—&lt;a href=&quot;http://cryogenweb.org&quot;&gt;cryogen&lt;/a&gt;—was very easy to set-up and soon I was producing. Cryogen is distributed as a template for &lt;a href=&quot;http://leiningen.org&quot;&gt;leiningen&lt;/a&gt;, and this made it easy to get started. For more details see the homepage for cryogen.&lt;/p&gt;
+&lt;h2&gt;What to expect&lt;/h2&gt;
+&lt;p&gt;Plenty of mistakes—as I do not proofread my posts—and relatively short posts—being neither very interesting or public. A few surprises get forced in for good measure too.&lt;/p&gt;
+&lt;h2&gt;My only request—for now.&lt;/h2&gt;
+&lt;p&gt;I need feedback. It’s lonely over here, and I need guidance. I disabled disqus because &lt;del&gt;it is—unfortunately—prone to spam&lt;/del&gt; I don’t like it. As such I have a &lt;a href=&quot;../../pages/contact-me&quot;&gt;Contact Me&lt;/a&gt; link in the sidebar, and a embedded irc client under the posts on the site.&lt;/p&gt;</content:encoded></item></channel></rss>
